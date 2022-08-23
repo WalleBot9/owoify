@@ -2,10 +2,9 @@
  * OwOifier
  * by WalleBot
  * Modified: 
- * 7-29-2022
+ * 8-23-2022
  **************/
 #include <stdio.h>
-#include <stdlib.h>
 #include <string.h>
 
 char owoify(char character)
