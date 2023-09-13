@@ -8,3 +8,5 @@ clean:
 	@rm -rvf bin
 install:
 	install -m 644 bin/owoify $(DESTDIR)$(PREFIX)/bin/owoify
+uninstall:
+	@rm -vf bin/owoify $(DESTDIR)$(PREFIX)/bin/owoify
