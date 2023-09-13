@@ -7,6 +7,6 @@ all:
 clean:
 	@rm -rvf bin
 install:
-	@install -v -m 644 bin/owoify $(DESTDIR)$(PREFIX)/bin/owoify
+	@install -v bin/owoify $(DESTDIR)$(PREFIX)/bin/owoify
 uninstall:
 	@rm -vf $(DESTDIR)$(PREFIX)/bin/owoify
